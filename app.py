@@ -6,7 +6,7 @@ import plotly_express as px
 st.header("Análisis de venta de coches")
 
 #Ahora leemos los datos contenidos en el archivo vehicles_us.csv
-car_data = pd.read_csv('/Users/camiloandres/Documents/data_analysis_projects/vehicles_env/vehicles_us.csv') 
+car_data = pd.read_csv('vehicles_us.csv') 
 
 #Ahora creamos un botón para construir el histograma
 hist_button = st.button('Construir histograma') 
